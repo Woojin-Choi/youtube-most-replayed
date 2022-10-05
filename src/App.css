@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.mainPageLinkInput {
+  width: 200px;
+}
+
 .mainPageLinkInputButton {
   margin: 5px 0 0 20px;
   /* width: 50px; */

@@ -118,6 +118,7 @@ function App() {
   return (
     <div className="App">
       <input
+        className="mainPageLinkInput"
         onChange={onYoutubeLinkInputChange}
         value={youtubeLink}
         placeholder="유튜브 링크를 입력해주세요."
