@@ -40,19 +40,19 @@ function App() {
           );
         }
 
-        console.log(heatMarkerArr);
-        console.log(scoreArr);
+        // console.log(heatMarkerArr);
+        // console.log(scoreArr);
 
         const scorePeakArrSorted = getPeakFromArr(scoreArr).sort(
           (a, b) => b.val - a.val
         );
-        console.log(scorePeakArrSorted);
+        // console.log(scorePeakArrSorted);
 
         for (let peak of scorePeakArrSorted) {
           heatMarkerPeakArr.push(heatMarkerArr[peak.idx]);
         }
 
-        console.log(heatMarkerPeakArr);
+        // console.log(heatMarkerPeakArr);
 
         setHeatMarkerPeakArr(heatMarkerPeakArr);
       }
